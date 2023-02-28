@@ -1,0 +1,27 @@
+name: BKSD
+description: Bilingual Keystroke Dynamics Dataset
+contributors:
+- name: Najwa Altwaijry
+data:
+- name: Arabic-password
+  description: Contains timing information for the Arabic version of the password.
+  path: /dataset/Arabic-password.csv
+  format: csv
+  size: 1.8 MB
+- name: English-password
+  description: Contains timing information for the English version of the password.
+  path: /dataset/English-password.csv
+  format: csv
+  size: 1.8 MB
+- name: Arabic-phrase
+  description: Contains timing information for the Arabic version of the phrase.
+  path: /dataset/Arabic-phrase.csv
+  format: csv
+  size: 2.5 MB
+- name: English-phrase
+  description: Contains timing information for the English version of the phrase.
+  path: /dataset/English-phrase.csv
+  format: csv
+  size: 2.5 MB
+license:
+- name: MIT
